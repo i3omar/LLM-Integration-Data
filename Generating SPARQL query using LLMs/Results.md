@@ -5,7 +5,7 @@ This document provides a list of queries and their outputs that were developed u
 ## Queries
 
 ### 1. Dara's Data Queries
-- **1.1** Select Dara's readings value when Dara's speed exceeded 170.
+- Select Dara's readings value when Dara's speed exceeded 170.
   - **Generated SPARQL Query:**
       ```sparql
       PREFIX sosa: <http://www.w3.org/ns/sosa/>
@@ -27,32 +27,11 @@ This document provides a list of queries and their outputs that were developed u
       }
       ```
   - **Result:** Wrong output (incorrect data retrieved)
-- **1.2** Select all Dara's data when its speed exceeded 170. (Shorter version)
-  - ```sparql
-    PREFIX sosa: <http://www.w3.org/ns/sosa/>
-    PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-    PREFIX : <http://api.stardog.com/>
-    
-    SELECT ?otherObservation ?property ?value
-    WHERE {
-      ?speedObservation sosa:madeBySensor <elephant/Dara> ;
-                        sosa:observedProperty <property/speed> ;
-                        sosa:hasSimpleResult ?speed ;
-                        sosa:resultTime ?time .
-      FILTER(?speed > 170)
-      
-      ?otherObservation sosa:madeBySensor <elephant/Dara> ;
-                        sosa:resultTime ?time ;
-                        sosa:observedProperty ?property ;
-                        sosa:hasSimpleResult ?value .
-    }
-      
-      ```
-  - **Result:** No output (query returned no results)
 
 ### 2. Aqeela's PDOP Query
 - Select Aqeela's data when its PDOP value was below 10.
-  - ```sparql
+  - **Generated SPARQL Query:**
+    ```sparql
     PREFIX sosa: <http://www.w3.org/ns/sosa/>
     PREFIX : <http://api.stardog.com/>
     
@@ -68,7 +47,8 @@ This document provides a list of queries and their outputs that were developed u
   - **Result:** No output (query returned no results)
 ### 3. Sandi's Temperature Query
 - Select Sandi's data when temperature measurements are below 28 degrees Celsius.
-  - ```sparql
+  - **Generated SPARQL Query:**
+    ```sparql
       PREFIX sosa: <http://www.w3.org/ns/sosa/>
       PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
       PREFIX : <http://api.stardog.com/>
@@ -84,7 +64,8 @@ This document provides a list of queries and their outputs that were developed u
   - **Result:** No output (query returned no results)
 ### 4. Putut's Speed Frequency
 - Determine how often Putut's sensor recorded a speed that is between 10 and 20.
-  - ```sparql
+  - **Generated SPARQL Query:**
+    ```sparql
     PREFIX sosa: <http://www.w3.org/ns/sosa/>
     PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
     PREFIX : <http://api.stardog.com/>
@@ -101,7 +82,8 @@ This document provides a list of queries and their outputs that were developed u
   - **Result:** No output (query returned no results)
 ### 5. Juling's HDOP Query
 - Select all Juling readings where HDOP is not bound to a specific value.
-  - ```sparql
+  - **Generated SPARQL Query:**
+   ```sparql
     PREFIX sosa: <http://www.w3.org/ns/sosa/>
     PREFIX : <http://api.stardog.com/>
     
@@ -120,7 +102,8 @@ This document provides a list of queries and their outputs that were developed u
   - **Result:** No output (query returned no results)
 ### 6. Juling's GPS Readings
 - What readings have been recorded by Juling when the sensor type contains GPS?
-  - ```sparql
+  - **Generated SPARQL Query:**
+    ```sparql
     PREFIX sosa: <http://www.w3.org/ns/sosa/>
     PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
     PREFIX : <http://api.stardog.com/>
@@ -138,7 +121,8 @@ This document provides a list of queries and their outputs that were developed u
   - **Result:** No output (query returned no results)
 ### 7. Liun's Directional Data
 - Show me the Liun readings from when its direction was towards the north.
-  - ```sparql
+  - **Generated SPARQL Query:**
+    ```sparql
     PREFIX sosa: <http://www.w3.org/ns/sosa/>
     PREFIX : <http://api.stardog.com/>
     
@@ -158,7 +142,8 @@ This document provides a list of queries and their outputs that were developed u
   - **Result:** No output (query returned no results)
 ### 8. Kuma's Altitude Query
 - Are there any readings from Kuma with an altitude greater than 1000 meters?
-  - ```sparql
+  - **Generated SPARQL Query:**
+    ```sparql
     PREFIX sosa: <http://www.w3.org/ns/sosa/>
     PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
     PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
@@ -175,7 +160,8 @@ This document provides a list of queries and their outputs that were developed u
   - **Result:** No output (query returned no results)
 ### 9. Kasih's Time-Bound Data
 - Are there any readings from Kasih with a result time between January 5, 2022, and January 6, 2022?
-  - ```sparql
+  - **Generated SPARQL Query:**
+    ```sparql
     PREFIX sosa: <http://www.w3.org/ns/sosa/>
     PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     
@@ -189,7 +175,8 @@ This document provides a list of queries and their outputs that were developed u
   - **Result:** No output (query returned no results)
 ### 10. Juling's HDOP Value
 - When was the HDOP value <= 10 for the Juling chip?
-  - ```sparql
+  - **Generated SPARQL Query:**
+    ```sparql
     PREFIX sosa: <http://www.w3.org/ns/sosa/>
     PREFIX : <http://api.stardog.com/>
     
