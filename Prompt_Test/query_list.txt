@@ -1,0 +1,21 @@
+- What was Dara's readings value when Dara's speed exceeded 170?
+- Where was Aqeela headed when its PDOP value was below 10?
+- Are there any instances where Sandi's temperature measurements are below 28?
+- How often has Putut's sensor recorded a speed that is between 10 and 20?
+- Which readings from Juling have HDOP not bound to value?
+- What readings have been recorded by Juling when the sensor type contains GPS?
+- Show me the Liun readings from when its direction was towards the north.
+- Are there any readings from Kuma with an altitude greater than 1000?
+- Are there any readings from Kasih with a result time between January 5, 2022, and January 6, 2022?
+- When was the HDOP value <= 10 for the Juling chip?
+
+- What were the reading values for Dara and Aqeela when Dara's speed exceeded 170 and Aqeela's speed was less than 20?
+- Where was Aqeela headed when its Position Dilution of Precision value was poor?
+- Find readings for Liun and Merotai within area 3, where the direction of Merotai is 205 and Liun altitude is above 951.
+- When was the quality of positional data at its best for the Juling chip, specifically for the Horizontal Dilution of Precision?
+- Retrieve the readings from all sensors that include sensor type as part of their data.
+- What are the readings for Juling where its Horizontal Dilution of Precision is not empty and its sensor type contain 'GPS'?
+- What are the readings for Sandi, Kasih, and Puteri from the last year, during which Kasih and Puteri's speed > 160, and Sandi's temperature is bound to a value?
+- What are the readings for sensors that observes Horizontal Dilution of Precision?
+- Retrieve the top 30 readings of Jasmin on 2016-05-10 where temperature is below 27 and speed exceeds 3.
+- Get the latest 50 Readings of Sandi between 2015-08-11 and 2015-08-12 with Temperature > 32 and Speed above 1 within area 1
