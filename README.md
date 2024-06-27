@@ -11,7 +11,7 @@ This `Dataset` folder houses two key files essential for our experiment:
 
 - **`dataDefinitions.ttl`**: This is a concise file that includes data definitions relevant to our study. It encompasses the naming conventions and descriptions of the sensors used in the dataset. (This is for the RDF Embeddings step)
 
-### 2. Generating SPARQL Query Using LLMs
+### 2. SPARQL_query_using_LLMs
 
 This folder contains the experimental data for generating SPARQL queries using Large Language Models (LLMs).
 
