@@ -1,6 +1,8 @@
 # Prompt_Test
 
-This folder contains the results and associated data for our prompt testing experiments. The contents include Excel files with detailed responses from the tests and a text file listing the queries used. Below is a detailed description of the contents of this folder:
+The `Prompt_Test` folder contains query list and test results that involve the two different prompts used in our study (In section 4.3 Prompts templates). 
+
+Below is a detailed description of the contents of this folder:
 
 ## Contents
 
