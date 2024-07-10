@@ -15,7 +15,7 @@ This `Dataset` folder contains two key files essential for our experiment:
 
 This folder contains the evaluation data for our main experiment. It provides results, analyses, and key metrics that demonstrate the effectiveness of our experimental approach. Included in this folder are the Python codes for calculating the Structural Similarity Score (StrSS), the Semantic Similarity Score (SemSS) and Overall JSON Similarity Score (OJSS) used in the study.
 
-### 3. SPARQL_query_using_LLMs](./SPARQL_query_using_LLMs/)
+### 3. [SPARQL_query_using_LLMs](./SPARQL_query_using_LLMs/)
 
 This folder contains the experimental data for generating SPARQL queries using Large Language Models (LLMs).
 
