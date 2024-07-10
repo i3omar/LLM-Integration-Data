@@ -3,7 +3,7 @@ Welcome to our dedicated repository, which contains all data related to our expe
 
 ## Contents
 
-### 1. [Dataset](./Dataset/)
+### 1. [Dataset](./Dataset/README.md)
 
 This `Dataset` folder contains two key files essential for our experiment:
 
@@ -11,16 +11,16 @@ This `Dataset` folder contains two key files essential for our experiment:
 
 - [**dataDefinitions.ttl**](./Dataset/dataDefinitions.ttl): This is a concise file that includes data definitions relevant to our study. It encompasses the naming conventions and descriptions of the sensors used in the dataset. (This is for the RDF Embeddings step)
 
-### 2. [Main_Experiment_Evaluation_Data](./Main_Experiment_Evaluation_Data/)
+### 2. [Main_Experiment_Evaluation_Data](./Main_Experiment_Evaluation_Data/README.md)
 
 This folder contains the evaluation data for our main experiment. It provides results, analyses, and key metrics that demonstrate the effectiveness of our experimental approach. Included in this folder are the Python codes for calculating the Structural Similarity Score (StrSS), the Semantic Similarity Score (SemSS) and Overall JSON Similarity Score (OJSS) used in the study.
 
-### 3. [SPARQL_query_using_LLMs](./SPARQL_query_using_LLMs/)
+### 3. [SPARQL_query_using_LLMs](./SPARQL_query_using_LLMs/README.md)
 
 This folder contains the experimental data for generating SPARQL queries using Large Language Models (LLMs).
 
 
 
-### 4. [Prompt_Test](./Prompt_Test/)
+### 4. [Prompt_Test](./Prompt_Test/README.md)
 
 The `Prompt_Test` folder contains query list and test results that involve the two different prompts used in our study (In section 4.3 Prompts templates). 
