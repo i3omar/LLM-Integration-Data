@@ -1,3 +1,7 @@
+[Back to Main Folder](../)
+
+----
+
 # Main_Experiment_Evaluation_Data
 
 This folder contains the evaluation data for our main experiment. It provides results, analyses, and key metrics that demonstrate the effectiveness of our experimental approach. Included in this folder are the Python codes for calculating the Structural Similarity Score (StrSS), the Semantic Similarity Score (SemSS), and the Overall JSON Similarity Score (OJSS) used in the study. Below is a detailed description of the contents of this folder:
