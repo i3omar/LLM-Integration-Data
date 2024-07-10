@@ -1,6 +1,6 @@
 # Dataset
 
-This `Dataset` folder houses two key files essential for our experiment:
+This `Dataset` folder contains two key files essential for our experiment:
 
 - [**Forest_dataset.ttl**](./Forest_dataset.ttl): This dataset, which has been uploaded to a private SPARQL endpoint, contains comprehensive data used throughout our research.
 
