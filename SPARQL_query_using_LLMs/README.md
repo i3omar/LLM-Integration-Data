@@ -1,3 +1,7 @@
+[Back to Main Folder](../)
+
+----
+
 # Generating SPARQL query using LLMs
 
 This document provides a list of queries and their outputs that were developed using GPT-4. These queries are tailored to answer a variety of simple questions pertinent to our toolkit, utilizing a complete RDF definition file to guide the model in generating appropriate SPARQL queries. Despite the queries adhering to the correct SPARQL standard format and being informed by the SOSA ontology, which indicated an understanding of the dataset structure, most generated queries failed to retrieve results. Only the first query produced a result that was incorrect. This highlights the model's tendency to replicate the query structure accurately and apply filters effectively, demonstrating strong entity extraction capabilities. However, the results underscore the current limitations of using large language models directly for SPARQL query generation without additional context or data adjustments. This analysis suggests that while direct conversion of end-user queries to SPARQL by LLMs may not yet be robust, these models can still significantly contribute to enhancing data extraction techniques.
