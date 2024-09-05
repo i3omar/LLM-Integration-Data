@@ -1,5 +1,8 @@
-# LLM Experiment Datastore
-Welcome to our dedicated repository, which contains all data related to our experiment. For the duration of the peer-review process, this repository will remain private and managed under strict anonymity. Access is strictly limited to authorized reviewers. We anticipate making this repository public to facilitate broader access and collaboration once the peer-review process has been successfully completed.
+# LLM Integration Experiment Data Repository
+Welcome to our dedicated repository, which contains all data related to our experiment. 
+
+## Main Project
+For more details about the ForestQB project, please refer to the [ForestQB main repository](https://github.com/i3omar/ForestQB).
 
 ## Contents
 
@@ -56,5 +59,12 @@ Below is a detailed description of the contents of this folder:
 
 ---
 
-© 2024. Access is restricted to authorized reviewers only.
+
+### Citation
+
+If you find this repository useful in your research or projects, please consider citing our papers.
+Your support through citation helps us continue improving and sharing our work with the community. Thank you!
+
+
+© 2024.
 
