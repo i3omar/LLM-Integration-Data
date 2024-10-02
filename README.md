@@ -4,6 +4,10 @@ Welcome to our dedicated repository, which contains all data related to our expe
 ## Main Project
 For more details about the ForestQB project, please refer to the [ForestQB main repository](https://github.com/i3omar/ForestQB).
 
+## Automatic Structural Evaluation
+
+For a detailed explanation of how to use and implement the Automatic Structural Evaluation methodology featured in our research, please refer to the comprehensive guide in [STRUCTURAL_EVALUATION.md](STRUCTURAL_EVALUATION.md). This document provides an in-depth description of the evaluation metrics, usage examples, and implementation steps. 
+
 ## Contents
 
 ### 1. [Dataset](./Dataset/README.md)
@@ -62,7 +66,8 @@ Below is a detailed description of the contents of this folder:
 
 ### Citation
 
-If you find this repository useful in your research or projects, please consider citing our papers.
+If you find this repository useful in your research or projects, please consider citing our paper: **[Towards Enhancing Linked Data Retrieval in Conversational UIs using Large Language Models
+](https://arxiv.org/abs/2409.16220)**.
 Your support through citation helps us continue improving and sharing our work with the community. Thank you!
 
 
