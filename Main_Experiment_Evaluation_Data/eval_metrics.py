@@ -9,7 +9,7 @@
 # model = SentenceTransformer('paraphrase-TinyBERT-L6-v2')
 
 
-def key_match_score(json_ref, json_gen, beta=0.1):
+def structural_similarity_score(json_ref, json_gen, beta=0.1):
     """
     Calculate the Structural Similarity Score (StrSS) that weights the presence of additional keys
     less severely than the absence of reference keys.
@@ -69,7 +69,7 @@ def semantic_similarity_score(json_ref, json_gen):
 
 
 def overall_json_similarity_score(json_ref, json_gen, alpha=0.5):
-    kms = key_match_score(json_ref, json_gen)
+    kms = structural_similarity_score(json_ref, json_gen)
     sss = semantic_similarity_score(json_ref, json_gen)
     return alpha * kms + (1 - alpha) * sss
 
