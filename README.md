@@ -70,6 +70,26 @@ If you find this repository useful in your research or projects, please consider
 ](https://arxiv.org/abs/2409.16220)**.
 Your support through citation helps us continue improving and sharing our work with the community. Thank you!
 
+```bibtex
+@InProceedings{10.1007/978-981-96-0573-6_18,
+author="Mussa, Omar
+and Rana, Omer
+and Goossens, Beno{\^i}t
+and Orozco-terWengel, Pablo
+and Perera, Charith",
+editor="Barhamgi, Mahmoud
+and Wang, Hua
+and Wang, Xin",
+title="Towards Enhancing Linked Data Retrieval in Conversational UIs Using Large Language Models",
+booktitle="Web Information Systems Engineering -- WISE 2024",
+year="2025",
+publisher="Springer Nature Singapore",
+address="Singapore",
+pages="246--261",
+isbn="978-981-96-0573-6"
+}
+```
+
 
 © 2024.
 
