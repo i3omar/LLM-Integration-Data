@@ -19,5 +19,11 @@ This folder contains the evaluation data for our main experiment. It provides re
     
 4. [**eval_metrics.py**](./eval_metrics.py)
     - The Python functions for calculating the Structural Similarity Score (StrSS), the Semantic Similarity Score (SemSS), and the Overall JSON Similarity Score (OJSS).
+  
+5. [**USECASE_3_LLMs_Experiment_Results.xlsx**](./USECASE_3_LLMs_Experiment_Results.xlsx)
+    - The full experiment result for Use Case 3.
+
+6. [**USECASE_3_Statistical_Tests.xlsx**](./USECASE_3_Statistical_Tests.xlsx)
+    - This file contains the statistical tests conducted for Use Case 3.
 
 
